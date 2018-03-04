@@ -1,0 +1,181 @@
+.stores-page {
+  margin: 0px;
+  padding: 0px;
+  min-width: 1146px;
+
+  font-weight: 400;
+  line-height: 22px;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .col-xl-1,
+  .col-xl-2,
+  .col-xl-3,
+  .col-xl-4,
+  .col-xl-5,
+  .col-xl-6,
+  .col-xl-7,
+  .col-xl-8,
+  .col-xl-9,
+  .col-xl-10,
+  .col-xl-11,
+  .col-xl-12 {
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+  }
+
+  .col-xl-1 { flex-basis: 8,3333%; }
+  .col-xl-2 { flex-basis: 16,6666%; }
+  .col-xl-3 { flex-basis: 25%; }
+  .col-xl-4 { flex-basis: 33,3333%; }
+  .col-xl-5 { flex-basis: 41,6666%; }
+  .col-xl-6 { flex-basis: 50%; }
+  .col-xl-7 { flex-basis: 58,3333%; }
+  .col-xl-8 { flex-basis: 66,6666%; }
+  .col-xl-9 { flex-basis: 75%; }
+  .col-xl-10 { flex-basis: 83,3333%; }
+  .col-xl-11 { flex-basis: 91,6666%; }
+  .col-xl-12 { flex-basis: 100%; }
+
+  .container {
+    margin: 0 auto;
+    padding: 0 0;
+    width: 1182px;
+  }
+
+  .header-menu {
+    padding: 16px 0;
+  }
+
+  .header-menu__logo-link {
+    margin-right: 121px;
+  }
+
+  .header-menu__logo-svg {
+    width: 121px;
+    height: 13px;
+  }
+
+  .time-form__button {
+    width: 65px;
+    height: 40px;
+    margin-right: 9px;
+
+    line-height: 24px;
+    font-size: 16px;
+    color: #1D1D1D;
+
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    background-color: white;
+  }
+
+  .header-menu__to-adress {
+    margin-right: 9px;
+  }
+
+  .adress-form {
+    margin-right: 92px;
+  }
+
+  .user-navigation__sign-in {
+    width: 80px;
+    height: 40px;
+    margin-right: 16px;
+
+    line-height: 24px;
+    font-size: 13px;
+    color: #1D1D1D;
+
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    background-color: white;
+  }
+
+  .user-navigation__register {
+    width: 80px;
+    height: 40px;
+    margin-right: 27px;
+
+    line-height: 24px;
+    font-size: 13px;
+    color: white;
+
+    border: 0px;
+    border-radius: 2px;
+
+    background-color: #262626;
+  }
+}
+
+.stores-header {
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user-navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+.stores-page-main {
+  background-color: #F2F2F2;
+}
+
+.stores-search {
+  display: flex;
+  flex-direction: column;
+}
+
+.stores-search-field {
+  display: flex;
+  flex-direction: row;
+}
+
+.restaurants {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.restaurant-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.restaurant-card__inner {
+  display: flex;
+  flex-direction: row;
+}
+
+.restaurant-card__cuisine {
+  display: flex;
+  flex-direction: row;
+}
+
+.stores-footer {
+  background-color: #262626;
+}
+
+.stores-footer__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-apps {
+  display: flex;
+  flex-direction: row;
+}
