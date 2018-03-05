@@ -8,7 +8,7 @@
   font-family: "Roboto", "Arial", sans-serif;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .col-xl-1,
   .col-xl-2,
   .col-xl-3,
@@ -42,7 +42,7 @@
   .container {
     margin: 0 auto;
     padding: 0 0;
-    width: 1182px;
+    width: 976px;
   }
 
   .header-menu {
@@ -228,9 +228,10 @@
 }
 
 .stores-footer {
-  padding: 56px 0 40px 0;
+  padding-top: 56px;
 
   background-color: #262626;
+  color: white;
 }
 
 .stores-footer__inner {
@@ -261,12 +262,35 @@
 .footer-menu-main {
 }
 
-.footer-menu-main__ubereats-hashtag {
-  color: white;
+.footer-menu-main__region-form {
+  margin: 32px 0;
 }
 
-.footer-menu-main__region-form {
-  margin-top: 32px;
+.footer-menu-main__ubereats-hashtag {
+  margin-bottom: 20px;
+
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.footer-menu-main__hash {
+  margin-right: 3px;
+  color: #49A144;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.social-media__item {
+  margin-right: 15px;
 }
 
 .footer-menu-about {
@@ -275,13 +299,27 @@
   list-style: none;
 }
 
+.footer-menu-about__item {
+  margin-bottom: 23px;
+}
+
 .footer-menu-about__link {
   text-decoration: none;
   color: white;
 }
 
+.footer-menu-about__link:hover {
+  color: rgba(255, 255, 255, 0.4);
+}
+
 .footer-menu-help {
+  margin-top: 39px;
+
   list-style: none;
+}
+
+.footer-menu-help__item {
+  margin-bottom: 23px;
 }
 
 .footer-menu-help__link {
@@ -289,7 +327,45 @@
   color: white;
 }
 
+.footer-menu-help__link:hover {
+  color: rgba(255, 255, 255, 0.4);
+}
+
 .footer-apps {
   display: flex;
   flex-direction: row;
+  align-items: center;
+
+  margin: 40px auto;
+}
+
+.footer-apps__item {
+  margin: 0 21px;
+}
+
+.footer-menu_height_small {
+  padding: 40px 0;
+}
+
+.footer-menu__copyright {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu__privacy {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-menu__privacy:hover {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.footer-menu__terms {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-menu__terms:hover {
+  color: rgba(255, 255, 255, 0.4);
 }
