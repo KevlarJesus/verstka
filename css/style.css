@@ -26,17 +26,17 @@
     box-sizing: border-box;
   }
 
-  .col-xl-1 { flex-basis: 8,3333%; }
-  .col-xl-2 { flex-basis: 16,6666%; }
+  .col-xl-1 { flex-basis: 8.3333%; }
+  .col-xl-2 { flex-basis: 16.6666%; }
   .col-xl-3 { flex-basis: 25%; }
-  .col-xl-4 { flex-basis: 33,3333%; }
-  .col-xl-5 { flex-basis: 41,6666%; }
+  .col-xl-4 { flex-basis: 33.3333%; }
+  .col-xl-5 { flex-basis: 41.6666%; }
   .col-xl-6 { flex-basis: 50%; }
-  .col-xl-7 { flex-basis: 58,3333%; }
-  .col-xl-8 { flex-basis: 66,6666%; }
+  .col-xl-7 { flex-basis: 58.3333%; }
+  .col-xl-8 { flex-basis: 66.6666%; }
   .col-xl-9 { flex-basis: 75%; }
-  .col-xl-10 { flex-basis: 83,3333%; }
-  .col-xl-11 { flex-basis: 91,6666%; }
+  .col-xl-10 { flex-basis: 83.3333%; }
+  .col-xl-11 { flex-basis: 91.6666%; }
   .col-xl-12 { flex-basis: 100%; }
 
   .container {
@@ -46,7 +46,7 @@
   }
 
   .header-menu {
-    padding: 16px 0;
+    padding: 0;
   }
 
   .header-menu__logo-link {
@@ -108,9 +108,19 @@
 
     background-color: #262626;
   }
-}
 
-.stores-header {
+  .basket {
+    align-self: center;
+    padding: 20px 10px;
+  }
+
+  .stores-search {
+    padding-top: 32px;
+  }
+
+  .restaurants {
+    margin-bottom: 80px;
+  }
 }
 
 .header-menu {
@@ -122,6 +132,7 @@
 .user-navigation {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .stores-page-main {
@@ -138,17 +149,40 @@
   flex-direction: row;
 }
 
+.stores-search__separator {
+  width: 100%;
+
+  color: rgba(117, 117, 117, 0.3);
+  }
+
+.stores-choice__header {
+  margin-bottom: 16px;
+
+  font-weight: 400;
+  line-height: 34px;
+  font-size: 22px;
+}
+
 .restaurants {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-left: -8px;
   margin-right: -8px;
+  margin-bottom: 80px;
 }
 
 .restaurant-card {
   display: flex;
   flex-direction: column;
+
+  margin-bottom: 16px;
+}
+
+.restaurant-card__name {
+  line-height: 24px;
+  font-size: 16px;
+  color: #1D1D1D;
 }
 
 .restaurant-card__inner {
@@ -156,12 +190,46 @@
   flex-direction: row;
 }
 
-.restaurant-card__cuisine {
+.restaurant-card__class {
+  line-height: 21px;
+  font-size: 14px;
+  color: #626262;
+}
+
+.cuisine-list {
   display: flex;
   flex-direction: row;
+
+  padding: 0;
+  margin: 0;
+
+  line-height: 21px;
+  font-size: 14px;
+  color: #626262;
+}
+
+.cuisine-list__item {
+  margin-left: 5px;
+
+  list-style: none;
+}
+
+.cuisine-list__item::before {
+  content: '•';
+  margin-right: 5px;
+}
+
+.restaurant-card__time {
+  margin-bottom: 20px;
+
+  line-height: 21px;
+  font-size: 13px;
+  color: #1D1D1D;
 }
 
 .stores-footer {
+  padding: 56px 0 40px 0;
+
   background-color: #262626;
 }
 
@@ -170,9 +238,55 @@
   flex-direction: column;
 }
 
+.stores-footer__logo {
+  width: 192px;
+  height: 20px;
+
+  margin-bottom: 40px;
+}
+
+.stores-footer__separator {
+  width: 100%;
+
+  color: rgba(255, 255, 255, 0.4);
+}
+
 .footer-menu {
   display: flex;
   flex-direction: row;
+
+  font-size: 13px;
+}
+
+.footer-menu-main {
+}
+
+.footer-menu-main__ubereats-hashtag {
+  color: white;
+}
+
+.footer-menu-main__region-form {
+  margin-top: 32px;
+}
+
+.footer-menu-about {
+  margin-top: 39px;
+
+  list-style: none;
+}
+
+.footer-menu-about__link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-menu-help {
+  list-style: none;
+}
+
+.footer-menu-help__link {
+  text-decoration: none;
+  color: white;
 }
 
 .footer-apps {
