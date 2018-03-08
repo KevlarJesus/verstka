@@ -45,15 +45,11 @@
     width: 976px;
   }
 
-  .header-menu {
-    padding: 0;
-  }
-
-  .header-menu__logo-link {
+  .page-header__logo-link {
     margin-right: 121px;
   }
 
-  .header-menu__logo-svg {
+  .page-header__logo-image {
     width: 121px;
     height: 13px;
   }
@@ -72,11 +68,11 @@
     background-color: white;
   }
 
-  .header-menu__to-adress {
+  .page-header__to-adress {
     margin-right: 9px;
   }
 
-  .adress-form {
+  .page-header__adress-form {
     margin-right: 92px;
   }
 
@@ -109,21 +105,20 @@
     background-color: #262626;
   }
 
-  .basket {
-    align-self: center;
+  .user-navigation__basket {
     padding: 20px 10px;
   }
 
-  .stores-search {
+  .search__field {
     padding-top: 32px;
   }
 
-  .restaurants {
+  .stores-choice__restaurants {
     margin-bottom: 80px;
   }
 }
 
-.header-menu {
+.page-header__menu {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -139,17 +134,12 @@
   background-color: #F2F2F2;
 }
 
-.stores-search {
-  display: flex;
-  flex-direction: column;
-}
-
-.stores-search-field {
+.search__field {
   display: flex;
   flex-direction: row;
 }
 
-.stores-search__separator {
+.search__separator {
   width: 100%;
 
   color: rgba(117, 117, 117, 0.3);
@@ -163,40 +153,39 @@
   font-size: 22px;
 }
 
-.restaurants {
+.stores-choice__restaurants {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-left: -8px;
   margin-right: -8px;
-  margin-bottom: 80px;
 }
 
-.restaurant-card {
+.restaurant__card {
   display: flex;
   flex-direction: column;
 
   margin-bottom: 16px;
 }
 
-.restaurant-card__name {
+.card__name {
   line-height: 24px;
   font-size: 16px;
   color: #1D1D1D;
 }
 
-.restaurant-card__inner {
+.card__inner {
   display: flex;
   flex-direction: row;
 }
 
-.restaurant-card__class {
+.card__class {
   line-height: 21px;
   font-size: 14px;
   color: #626262;
 }
 
-.cuisine-list {
+.card__cuisine {
   display: flex;
   flex-direction: row;
 
@@ -219,7 +208,7 @@
   margin-right: 5px;
 }
 
-.restaurant-card__time {
+.card__time {
   margin-bottom: 20px;
 
   line-height: 21px;
@@ -227,58 +216,55 @@
   color: #1D1D1D;
 }
 
-.stores-footer {
-  padding-top: 56px;
-
+.page-footer {
   background-color: #262626;
   color: white;
 }
 
-.stores-footer__inner {
+.page-footer__inner {
   display: flex;
   flex-direction: column;
+
+  padding-top: 56px;
 }
 
-.stores-footer__logo {
+.page-footer__logo {
   width: 192px;
   height: 20px;
 
   margin-bottom: 40px;
 }
 
-.stores-footer__separator {
+.page-footer__separator {
   width: 100%;
 
   color: rgba(255, 255, 255, 0.4);
 }
 
-.footer-menu {
+.footer-top {
   display: flex;
   flex-direction: row;
 
   font-size: 13px;
 }
 
-.footer-menu-main {
-}
-
-.footer-menu-main__region-form {
+.footer-top__region {
   margin: 32px 0;
 }
 
-.footer-menu-main__ubereats-hashtag {
+.footer-top__hashtag {
   margin-bottom: 20px;
 
   font-size: 16px;
   line-height: 19px;
 }
 
-.footer-menu-main__hash {
+.footer-top__hash {
   margin-right: 3px;
   color: #49A144;
 }
 
-.social-media {
+.footer-top__social {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -293,36 +279,36 @@
   margin-right: 15px;
 }
 
-.footer-menu-about {
+.footer-top__about {
   margin-top: 39px;
 
   list-style: none;
 }
 
-.footer-menu-about__item {
+.about__item {
   margin-bottom: 23px;
 }
 
-.footer-menu-about__link {
+.about__link {
   text-decoration: none;
   color: white;
 }
 
-.footer-menu-about__link:hover {
+.about__link:hover {
   color: rgba(255, 255, 255, 0.4);
 }
 
-.footer-menu-help {
+.footer-top__help {
   margin-top: 39px;
 
   list-style: none;
 }
 
-.footer-menu-help__item {
+.help__item {
   margin-bottom: 23px;
 }
 
-.footer-menu-help__link {
+.help__link {
   text-decoration: none;
   color: white;
 }
@@ -331,7 +317,7 @@
   color: rgba(255, 255, 255, 0.4);
 }
 
-.footer-apps {
+.page-footer__apps {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -339,33 +325,38 @@
   margin: 40px auto;
 }
 
-.footer-apps__item {
+.apps__item {
   margin: 0 21px;
 }
 
-.footer-menu_height_small {
+.page-footer__bottom {
+  display: flex;
+  flex-direction: row;
+
   padding: 40px 0;
+
+  font-size: 13px;
 }
 
-.footer-menu__copyright {
+.footer-bottom__copyright {
   margin: 0;
   padding: 0;
 }
 
-.footer-menu__privacy {
+.footer-bottom__privacy {
   text-decoration: none;
   color: white;
 }
 
-.footer-menu__privacy:hover {
+.footer-bottom__privacy:hover {
   color: rgba(255, 255, 255, 0.4);
 }
 
-.footer-menu__terms {
+.footer-bottom__terms {
   text-decoration: none;
   color: white;
 }
 
-.footer-menu__terms:hover {
+.footer-bottom__terms:hover {
   color: rgba(255, 255, 255, 0.4);
 }
