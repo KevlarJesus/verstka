@@ -57,19 +57,8 @@
   .time-form__button {
     width: 65px;
     height: 40px;
-    margin-right: 9px;
 
-    line-height: 24px;
     font-size: 16px;
-    color: #1D1D1D;
-
-    border: 1px solid #E0E0E0;
-    border-radius: 2px;
-    background-color: white;
-  }
-
-  .page-header__to-adress {
-    margin-right: 9px;
   }
 
   .page-header__adress-form {
@@ -83,11 +72,6 @@
 
     line-height: 24px;
     font-size: 13px;
-    color: #1D1D1D;
-
-    border: 1px solid #E0E0E0;
-    border-radius: 2px;
-    background-color: white;
   }
 
   .user-navigation__register {
@@ -97,24 +81,22 @@
 
     line-height: 24px;
     font-size: 13px;
-    color: white;
-
-    border: 0px;
-    border-radius: 2px;
-
-    background-color: #262626;
   }
 
   .user-navigation__basket {
     padding: 20px 10px;
   }
 
-  .search__field {
-    padding-top: 32px;
-  }
+  .search__separator {
+    margin-bottom: 56px;
+    }
 
   .stores-choice__restaurants {
     margin-bottom: 80px;
+  }
+
+  .page-footer__apps {
+    margin: 40px auto;
   }
 }
 
@@ -124,14 +106,51 @@
   align-items: center;
 }
 
+.time-form__button {
+  margin-right: 9px;
+
+  line-height: 24px;
+  color: #1D1D1D;
+
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+
+  background-color: white;
+}
+
+.page-header__to-adress {
+  margin-right: 9px;
+}
+
 .user-navigation {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
+.user-navigation__register {
+  color: white;
+
+  border: 0px;
+  border-radius: 2px;
+
+  background-color: #262626;
+}
+
+.user-navigation__sign-in {
+  color: #1D1D1D;
+
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  background-color: white;
+}
+
 .stores-page-main {
   background-color: #F2F2F2;
+}
+
+.search {
+  padding-top: 40px;
 }
 
 .search__field {
@@ -246,6 +265,7 @@
   flex-direction: row;
 
   font-size: 13px;
+  line-height: 15px;
 }
 
 .footer-top__region {
@@ -313,6 +333,10 @@
   color: white;
 }
 
+.help__link:hover {
+  color: rgba(255, 255, 255, 0.4);
+}
+
 .footer-menu-help__link:hover {
   color: rgba(255, 255, 255, 0.4);
 }
@@ -321,8 +345,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-
-  margin: 40px auto;
 }
 
 .apps__item {
