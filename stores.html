@@ -13,17 +13,17 @@
   <header class="page-header container">
     <nav class="page-header__menu header-menu">
       <a class="page-header__logo-link" href="stores.html"><img src="/img/logo.svg" alt="UberEats Logo" class="page-header__logo-image"></a>
-      <form action="" class="page-header__time-form time-form" method="get">
+      <form action="" class="page-header__time-form time-form small-screen-hidden" method="get">
         <button class="time-form__button">ASAP</button>
       </form>
-      <div class="page-header__to-adress">to</div>
-      <form action="" class="page-header__adress-form adress-form" method="get">
-        <input class="adress-form__input" type="text" placeholder="ul. Bolshaya Dmitrovka,22" id="user-adress-id">
+      <div class="page-header__to-adress small-screen-hidden">to</div>
+      <form action="" class="page-header__adress-form adress-form small-screen-hidden" method="get">
+        <input class="adress-form__input" type="text" placeholder="ul. Bolshaya Dmitrovka, 22" id="user-adress-id">
       </form>
       <div class="user-navigation">
         <button class="user-navigation__sign-in">Sign In</button>
         <button class="user-navigation__register">Register</button>
-        <div class="user-navigation__basket"></div>
+        <div class="user-navigation__basket small-screen-hidden"></div>
       </div>
     </nav>
   </header>
@@ -34,6 +34,25 @@
         <input class="search__input" type="text" placeholder="Search for restaurant or cuisine">
       </form>
       <hr class="search__separator">
+    </section>
+
+    <section class="stores-page-main__delivery-mobile delivery-mobile big-screen-hidden">
+      <div class="dilivery-mobile__inner col-xs-3">
+        <p class="delivery-mobile__text">When</p>
+        <div class="delivery-mobile__time">
+          <form action="" class="delivery-mobile__time-form" method="get">
+            <button class="delivery-mobile__button">ASAP</button>
+          </form>
+        </div>
+      </div>
+      <div class="dilivery-mobile__inner col-xs-9">
+        <p class="delivery-mobile__text">To</p>
+        <div class="delivery-mobile__adress">
+          <form action="" class="delivery-mobile__adress-form" method="get">
+            <input class="delivery-mobile__input" type="text" placeholder="ul. Bolshaya Dmitrovka, 22" id="user-adress-id">
+          </form>
+        </div>
+      </div>
     </section>
 
     <section class="stores-choice container">
