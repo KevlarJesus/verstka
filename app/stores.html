@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <title>Uber Eats Stores</title>
+</head>
+<body class="stores-page">
+  <header class="page-header container">
+    <nav class="page-header__menu header-menu">
+      <a class="page-header__logo-link" href="stores.html"><img src="/img/logo.svg" class="page-header__logo-image" alt="UberEats Logo"></a>
+      <form action="" class="page-header__time-form time-form small-screen-hidden" method="get">
+        <button class="time-form__button">ASAP</button>
+      </form>
+      <div class="page-header__to-adress small-screen-hidden">to</div>
+      <form action="" class="page-header__adress-form adress-form small-screen-hidden" method="get">
+        <input class="adress-form__input" type="text" placeholder="ul. Bolshaya Dmitrovka, 22" id="user-adress-id">
+      </form>
+      <div class="page-header__nav user-navigation">
+        <button class="user-navigation__button user-navigation__button--light">Sign In</button>
+        <button class="user-navigation__button user-navigation__button--dark">Register</button>
+        <div class="user-navigation__basket small-screen-hidden"></div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <section class="search container">
+      <form class="search__form" action="index.html" method="post">
+        <input class="search__input" type="text" placeholder="Search for restaurant or cuisine">
+      </form>
+      <hr class="search__separator">
+    </section>
+
+    <section class="delivery-mobile big-screen-hidden container">
+      <div class="dilivery-mobile__inner">
+        <p class="delivery-mobile__text">When</p>
+        <div class="delivery-mobile__time">
+          <form action="" class="delivery-mobile__time-form" method="get">
+            <button class="delivery-mobile__button">ASAP</button>
+          </form>
+        </div>
+      </div>
+      <div class="dilivery-mobile__inner">
+        <p class="delivery-mobile__text">To</p>
+        <div class="delivery-mobile__adress">
+          <form action="" class="delivery-mobile__adress-form" method="get">
+            <input class="delivery-mobile__input" type="text" placeholder="ul. Bolshaya Dmitrovka, 22" id="user-adress-id">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="stores-choice container">
+      <h1 class="stores-choice__header">Moscow Restaurants</h1>
+      <div class="stores-choice__restaurants restaurants">
+        <div class="restaurant__card card col-xl-4 col-md-6 col-xs-12">
+          <a href="store.html"><a href="store.html"><img src="img/store.jpg" class="card__image" alt="DimSum & Co — ЦДМ"></a></a>
+          <a href="store.html" class="card__name">DimSum & Co — ЦДМ</a>
+          <div class="card__inner">
+            <div class="card__class">₽₽</div>
+            <ul class="card__cuisine cuisine-list">
+               <li class="cuisine-list__item">Японская</li>
+               <li class="cuisine-list__item">Китайская</li>
+               <li class="cuisine-list__item">Азиатская</li>
+             </ul>
+          </div>
+          <div class="card__time">40 - 50 Min</div>
+        </div>
+
+        <div class="restaurant__card card col-xl-4 col-md-6 col-xs-12">
+          <a href="store.html"><img src="img/store.jpg" class="card__image" alt="DimSum & Co — ЦДМ"></a>
+          <a href="store.html" class="card__name">DimSum & Co — ЦДМ</a>
+          <div class="card__inner">
+            <div class="card__class">₽₽</div>
+            <ul class="card__cuisine cuisine-list">
+               <li class="cuisine-list__item">Японская</li>
+               <li class="cuisine-list__item">Китайская</li>
+               <li class="cuisine-list__item">Азиатская</li>
+             </ul>
+          </div>
+          <div class="card__time">40 - 50 Min</div>
+        </div>
+
+        <div class="restaurant__card card col-xl-4 col-md-6 col-xs-12">
+          <a href="store.html"><img src="img/store.jpg" class="card__image" alt="DimSum & Co — ЦДМ"></a>
+          <a href="store.html" class="card__name">DimSum & Co — ЦДМ</a>
+          <div class="card__inner">
+            <div class="card__class">₽₽</div>
+            <ul class="card__cuisine cuisine-list">
+               <li class="cuisine-list__item">Японская</li>
+               <li class="cuisine-list__item">Китайская</li>
+               <li class="cuisine-list__item">Азиатская</li>
+             </ul>
+          </div>
+          <div class="card__time">40 - 50 Min</div>
+        </div>
+
+        <div class="restaurant__card card col-xl-4 col-md-6 col-xs-12">
+          <a href="store.html"><img src="img/store.jpg" class="card__image" alt="DimSum & Co — ЦДМ"></a>
+          <a href="store.html" class="card__name">DimSum & Co — ЦДМ</a>
+          <div class="card__inner">
+            <div class="card__class">₽₽</div>
+            <ul class="card__cuisine cuisine-list">
+               <li class="cuisine-list__item">Японская</li>
+               <li class="cuisine-list__item">Китайская</li>
+               <li class="cuisine-list__item">Азиатская</li>
+             </ul>
+          </div>
+          <div class="card__time">40 - 50 Min</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <div class="page-footer__inner container">
+        <img src="/img/white-logo.svg" alt="UberEats white logo" class="page-footer__logo">
+
+        <hr class="page-footer__separator">
+
+        <div class="page-footer__top footer-top">
+          <div class="footer-top__main-menu col-xl-4 col-md-4 col-xs-12">
+            <form class="footer-top__region" action="" method="post">
+              <select class="footer-top__region-select" name="" id="">
+                <option value="English">English</option>
+              </select>
+            </form>
+            <div class="footer-top__hashtag"><span class="footer-top__hash">#</span>UberEats</div>
+            <ul class="footer-top__social social-media">
+              <li class="social-media__item"><a href="https://www.facebook.com/" class="social-media__facebook"></a></li>
+              <li class="social-media__item"><a href="https://www.facebook.com/" class="social-media__twitter"></a></li>
+              <li class="social-media__item"><a href="https://www.facebook.com/" class="social-media__instagram"></a></li>
+            </ul>
+          </div>
+
+          <ul class="footer-top__about about col-xl-4 col-md-4 col-xs-12">
+            <li class="about__item"><a href="" class="about__link">About UberEats</a></li>
+            <li class="about__item"><a href="" class="about__link">Become a Delivery Partner</a></li>
+            <li class="about__item"><a href="" class="about__link">Become a Restaurant Partner</a></li>
+          </ul>
+
+          <ul class="footer-top__help help col-xl-4 col-md-4 col-xs-12">
+            <li class="help__item"><a href="" class="help__link">See all cities</a></li>
+            <li class="help__item"><a href="" class="help__link">Pricing</a></li>
+            <li class="help__item"><a href="" class="help__link">Help</a></li>
+            <li class="help__item"><a href="" class="help__link">FAQs</a></li>
+          </ul>
+        </div>
+
+        <hr class="page-footer__separator">
+
+        <div class="page-footer__apps apps">
+          <a href="stores.html" class="apps__item"><img src="/img/appstore.png" alt="" class="apps__appstore"></a>
+          <a href="stores.html" class="apps__item"><img src="/img/googleplay.png" alt="" class="apps__play-market"></a>
+        </div>
+
+        <hr class="page-footer__separator">
+
+        <div class="page-footer__bottom footer-bottom">
+          <p class="footer-bottom__copyright col-xl-4 col-md-4 col-xs-12">© 2017 Uber Technologies Inc.</p>
+          <a href="stores.html" class="footer-bottom__privacy col-xl-4 col-md-4 col-xs-12">Privacy</a>
+          <a href="stores.html" class="footer-bottom__terms col-xl-4 col-md-4 col-xs-12">Terms</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
