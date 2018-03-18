@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 gulp.task('css', function () {
   return gulp.src('app/css/*.css')
     .pipe(postcss([cssnext()]))
-    .pipe(gulp.dest('dest/css'));
+    .pipe(gulp.dest('dist/css'));
 });
 
 gulp.task('browser-sync', function() {
