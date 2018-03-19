@@ -7,7 +7,7 @@ gulp.task('css', function () {
   return gulp.src('app/css/*.css')
     .pipe(postcss([cssnext()]))
     .pipe(gulp.dest('dist/css'))
-    .pipe(gulp.dest('app/req/css'));
+    .pipe(gulp.dest('app/req'));
 });
 
 gulp.task('browser-sync', function() {

@@ -3,7 +3,7 @@
   --mainFont: 13px;
 }
 
-.stores-page {
+.page-body {
   margin: 0px;
   padding: 0px;
   min-width: 302px;
@@ -213,7 +213,6 @@
 .search {
   padding-top: 40px;
 }
-
 
 .search__input {
   width: 100%;
@@ -553,6 +552,14 @@
   color: rgba(255, 255, 255, 0.4);
 }
 
+/* restaraunt page */
+
+.page-main--white {
+  background-color: white;
+}
+
+
+
 @media (min-width: 768px) {
   .col-md-1,
   .col-md-2,
@@ -589,7 +596,7 @@
     width: 752px;
   }
 
-  .stores-page {
+  .page-body {
     min-width: 752px;
   }
 
@@ -739,7 +746,7 @@
     width: 976px;
   }
 
-  .stores-page {
+  .page-body {
     min-width: 976px;
   }
 
