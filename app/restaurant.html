@@ -28,28 +28,84 @@
     </nav>
   </header>
 
-  <main class="page-main page-main--white">
+  <main class="page-main">
     <section class="page-main__cover cover">
       <div class="cover__info">
         <h1 class="cover__header">Трактир «Пушкин»</h1>
-        <div class="cover__class">₽₽₽</div>
-        <ul class="cover__cuisine">
-          <li class="cover__item">Европейская</li>
-        </ul>
+        <div class="cover__inner">
+          <div class="cover__class">₽₽₽</div>
+          <ul class="cover__cuisine">
+            <li class="cover__item">Европейская</li>
+          </ul>
+        </div>
         <div class="cover__time">40 - 50 Min</div>
       </div>
     </section>
 
-    <section class="page-main__dishes dishes">
+    <nav class="page-main__dish-menu dish-menu container">
+      <ul class="dish-menu__list">
+        <li class="dish-menu__item"><a class="dish-menu__link dish-menu__link--current">Закуски</a></li>
+        <li class="dish-menu__item"><a href="#" class="dish-menu__link">Салаты</a></li>
+        <li class="dish-menu__item"><a href="#" class="dish-menu__link">Супы</a></li>
+        <li class="dish-menu__item"><a href="#" class="dish-menu__link">Горячие блюда</a></li>
+        <li class="dish-menu__item"><a href="#" class="dish-menu__link">Гарниры</a></li>
+        <li class="dish-menu__item"><a href="#" class="dish-menu__link">Десерты</a></li>
+      </ul>
+    </nav>
+
+    <section class="page-main__dishes dishes container">
       <h2 class="dishes__header">Закуски</h2>
       <hr class="dishes__separator">
-      <div class="dishes__item dish">
-        <div class="dish__inner">
-          <h3 class="dish__name">Сельдь на бородинстком хлебе</h3>
-          <p class="dish__description">С яйцом и огурцом</p>
-          <p class="dish__price">240 ₽</p>
+      <div class="dishes__inner">
+        <div class="dishes__item dish col-xs-12 col-xl-6">
+          <div class="dish__inner">
+            <h3 class="dish__name">Сельдь на бородинском хлебе</h3>
+            <p class="dish__description">С яйцом и огурцом</p>
+            <p class="dish__price">240 ₽</p>
+          </div>
+          <img src="img/dish.jpg" alt="Сельдь на бородинском хлебе" class="dish__photo">
         </div>
-        <img src="" alt="" class="dish__photo">
+
+        <div class="dishes__item dish col-xs-12 col-xl-6">
+          <div class="dish__inner">
+            <h3 class="dish__name dish__name--no-descripton">Сельдь на бородинском хлебе</h3>
+            <p class="dish__price">240 ₽</p>
+          </div>
+          <img src="img/dish.jpg" alt="Сельдь на бородинском хлебе" class="dish__photo">
+        </div>
+
+        <div class="dishes__item dish col-xs-12 col-xl-6">
+          <div class="dish__inner">
+            <h3 class="dish__name">Сельдь на бородинском хлебе</h3>
+            <p class="dish__description">С яйцом и огурцом</p>
+            <p class="dish__price">240 ₽</p>
+          </div>
+          <img src="img/dish.jpg" alt="Сельдь на бородинском хлебе" class="dish__photo">
+        </div>
+
+        <div class="dishes__item dish col-xs-12 col-xl-6">
+          <div class="dish__inner">
+            <h3 class="dish__name dish__name--no-descripton">Сельдь на бородинском хлебе</h3>
+            <p class="dish__price">240 ₽</p>
+          </div>
+          <img src="img/dish.jpg" alt="Сельдь на бородинском хлебе" class="dish__photo">
+        </div>
+
+        <div class="dishes__item dish col-xs-12 col-xl-6">
+          <div class="dish__inner">
+            <h3 class="dish__name dish__name--no-descripton">Сельдь на бородинском хлебе</h3>
+            <p class="dish__price">240 ₽</p>
+          </div>
+          <img src="img/dish.jpg" alt="Сельдь на бородинском хлебе" class="dish__photo">
+        </div>
+
+        <div class="dishes__item dish col-xs-12 col-xl-6">
+          <div class="dish__inner">
+            <h3 class="dish__name dish__name--no-descripton">Сельдь на бородинском хлебе</h3>
+            <p class="dish__price">240 ₽</p>
+          </div>
+          <img src="img/dish.jpg" alt="Сельдь на бородинском хлебе" class="dish__photo">
+        </div>
       </div>
     </section>
   </main>
@@ -61,7 +117,7 @@
       <hr class="page-footer__separator">
 
       <div class="page-footer__top footer-top">
-        <div class="footer-top__main-menu col-xl-4 col-md-4 col-xs-12">
+        <div class="footer-top__main-menu col-xl-4 col-md-4 col-xs-12 col-xl-6">
           <form class="footer-top__region" action="" method="post">
             <select class="footer-top__region-select" name="" id="">
               <option value="English">English</option>
@@ -75,13 +131,13 @@
           </ul>
         </div>
 
-        <ul class="footer-top__about about col-xl-4 col-md-4 col-xs-12">
+        <ul class="footer-top__about about col-xl-4 col-md-4 col-xs-12 col-xl-6">
           <li class="about__item"><a href="" class="about__link">About UberEats</a></li>
           <li class="about__item"><a href="" class="about__link">Become a Delivery Partner</a></li>
           <li class="about__item"><a href="" class="about__link">Become a Restaurant Partner</a></li>
         </ul>
 
-        <ul class="footer-top__help help col-xl-4 col-md-4 col-xs-12">
+        <ul class="footer-top__help help col-xl-4 col-md-4 col-xs-12 col-xl-6">
           <li class="help__item"><a href="" class="help__link">See all cities</a></li>
           <li class="help__item"><a href="" class="help__link">Pricing</a></li>
           <li class="help__item"><a href="" class="help__link">Help</a></li>
@@ -99,9 +155,9 @@
       <hr class="page-footer__separator">
 
       <div class="page-footer__bottom footer-bottom">
-        <p class="footer-bottom__copyright col-xl-4 col-md-4 col-xs-12">© 2017 Uber Technologies Inc.</p>
-        <a href="stores.html" class="footer-bottom__privacy col-xl-4 col-md-4 col-xs-12">Privacy</a>
-        <a href="stores.html" class="footer-bottom__terms col-xl-4 col-md-4 col-xs-12">Terms</a>
+        <p class="footer-bottom__copyright col-xl-4 col-md-4 col-xs-12 col-xl-6">© 2017 Uber Technologies Inc.</p>
+        <a href="stores.html" class="footer-bottom__privacy col-xl-4 col-md-4 col-xs-12 col-xl-6">Privacy</a>
+        <a href="stores.html" class="footer-bottom__terms col-xl-4 col-md-4 col-xs-12 col-xl-6">Terms</a>
       </div>
     </div>
   </footer>
