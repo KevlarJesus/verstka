@@ -19,11 +19,22 @@
   width: 302px;
 }
 
-.small-screen-hidden {
+.page-header__time-form {
+  display: none;
+}
+.page-header__to-adress {
   display: none;
 }
 
-.big-screen-hidden {
+.page-header__adress-form {
+  display: none;
+}
+
+.user-navigation__basket {
+  display: none;
+}
+
+.delivery-mobile {
   display: initial;
 }
 
@@ -807,12 +818,22 @@
     min-width: 752px;
   }
 
-  .small-screen-hidden {
-    display: inline;
+  .page-header__time-form {
+    display: initial;
+  }
+  .page-header__to-adress {
     display: initial;
   }
 
-  .big-screen-hidden {
+  .page-header__adress-form {
+    display: initial;
+  }
+
+  .user-navigation__basket {
+    display: initial;
+  }
+
+  .delivery-mobile {
     display: none;
   }
 
